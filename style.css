@@ -1,0 +1,31 @@
+.right {
+  width: 400px;
+  height: 300px;
+  margin: 200px;
+  background-color: aqua;
+  clip-path: polygon(
+    0% 20%,
+    60% 20%,
+    60% 0%,
+    100% 50%,
+    60% 100%,
+    60% 80%,
+    0% 80%
+  );
+}
+
+.heptagon {
+  width: 500px;
+  height: 500px;
+  margin: 100px;
+  background-color: yellow;
+  clip-path: polygon(
+    50% 0,
+    90% 25%,
+    100% 60%,
+    75% 100%,
+    30% 100%,
+    0 60%,
+    10% 25%
+  );
+}
